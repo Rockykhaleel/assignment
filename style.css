@@ -1,0 +1,198 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: DM Sans;
+}
+
+.custom-background {
+  background-color: #2f1893 !important;
+}
+.adjust-padd {
+  padding: 30px 170px !important;
+}
+.c-white {
+  color: white !important;
+}
+.cus-button {
+  background-color: #e93a7d !important;
+  border-radius: 30px !important;
+  border: none !important;
+  width: 120px;
+  height: 40px;
+}
+.nav-bet-pad {
+  padding-right: 30px !important;
+}
+.cus-nav {
+  padding-top: 10px;
+}
+.active {
+  opacity: 0.3 !important;
+}
+
+h3 {
+  font-size: 55px !important;
+  font-style: normal;
+  font-weight: 700 !important ;
+  letter-spacing: -1px !important;
+}
+p {
+  width: 363px !important;
+  font-size: 22px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 32px !important;
+}
+.size1 {
+  width: 424px !important;
+  height: 217px !important;
+}
+.size2 {
+  width: 470px !important;
+  height: 600px !important;
+  border-radius: 10px;
+  background: var(--background-light, #fff);
+  margin-left: 50px;
+
+}
+.button-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+.cus-btn-2 {
+  width: 157px !important;
+  height: 50px !important;
+  background-color: #e93a7d;
+  border-radius: 30px !important;
+  border: none !important;
+}
+h4 {
+  font-size: 38px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 52px !important;
+  letter-spacing: -0.4px !important;
+}
+.pt-20 {
+  padding-top: 25px !important;
+}
+
+.input-spl {
+  width: 330px !important;
+  height: 50px !important;
+  border-radius: 100px !important;
+}
+input {
+  margin: 0 auto !important;
+}
+
+.checkbox-container {
+    padding-left: 65px !important;
+}
+.form-check-input {
+    margin-right: 10px !important; 
+}
+
+
+.sign-in-btn {
+  background-color: #482be7;
+  width: 330px;
+  height: 50px;
+  border: none;
+  border-radius: 100px !important;
+}
+
+.tweet-login {
+  background-color: #1da1f2;
+  width: 330px;
+  height: 50px;
+  border: none;
+  border-radius: 100px !important;
+}
+.register {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  text-align: center !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 28px !important;
+  margin: 0 auto !important;
+}
+span {
+  color: var(--action-primary, #25dac5);
+  margin: 0 auto !important;
+}
+
+.line-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important; /* Adjust this value to increase or decrease the gap */
+}
+.line-container hr {
+    flex-grow: 1 !important;
+}
+.sp1{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    .adjust-padd {
+        padding: 30px 20px !important;
+    }
+    .size1, .size2 {
+        max-width:100%;
+    }
+    .size2{
+margin-top: 285px !important;
+margin-left: 15px !important;
+    }
+
+    .input-spl, .sign-in-btn, .tweet-login {
+        width: 100% !important;
+        max-width: 280px !important;
+    }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1199px) {
+    .adjust-padd {
+        padding: 30px 50px !important;
+    }
+    .size1, .size2 {
+        max-width:100%;
+    }
+    .size2{
+        margin-top: 285px !important;
+        margin-left: 15px !important;
+            }
+    .input-spl, .sign-in-btn, .tweet-login {
+        width: 100% !important;
+        max-width: 330px !important;
+    }
+    
+
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 1199px) and (max-width: 1399px) {
+    .adjust-padd {
+        padding: 30px 50px !important;
+    }
+    .size1, .size2 {
+        max-width:100%;
+    }
+    .size2{
+        margin-top: -210px !important;
+        margin-left: 460px !important;
+            }
+    .input-spl, .sign-in-btn, .tweet-login {
+        width: 100% !important;
+        max-width: 330px !important;
+    }
+    
+
+}
